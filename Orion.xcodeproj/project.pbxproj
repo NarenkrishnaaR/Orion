@@ -15,6 +15,7 @@
 		790F999C1F48A717006F08C1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 790F999A1F48A717006F08C1 /* LaunchScreen.storyboard */; };
 		790F99A71F48A717006F08C1 /* OrionTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 790F99A61F48A717006F08C1 /* OrionTests.swift */; };
 		790F99B21F48A717006F08C1 /* OrionUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 790F99B11F48A717006F08C1 /* OrionUITests.swift */; };
+		791078231F49F1A8002130AF /* LoginView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 791078221F49F1A8002130AF /* LoginView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +50,7 @@
 		790F99AD1F48A717006F08C1 /* OrionUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = OrionUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		790F99B11F48A717006F08C1 /* OrionUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OrionUITests.swift; sourceTree = "<group>"; };
 		790F99B31F48A717006F08C1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		791078221F49F1A8002130AF /* LoginView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -102,6 +104,7 @@
 				790F998E1F48A717006F08C1 /* AppDelegate.swift */,
 				790F99901F48A717006F08C1 /* ViewController.swift */,
 				790F99921F48A717006F08C1 /* Main.storyboard */,
+				791078221F49F1A8002130AF /* LoginView.swift */,
 				790F99981F48A717006F08C1 /* Assets.xcassets */,
 				790F999A1F48A717006F08C1 /* LaunchScreen.storyboard */,
 				790F999D1F48A717006F08C1 /* Info.plist */,
@@ -264,6 +267,7 @@
 			files = (
 				790F99971F48A717006F08C1 /* Orion.xcdatamodeld in Sources */,
 				790F99911F48A717006F08C1 /* ViewController.swift in Sources */,
+				791078231F49F1A8002130AF /* LoginView.swift in Sources */,
 				790F998F1F48A717006F08C1 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -511,6 +515,7 @@
 				790F99B81F48A717006F08C1 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		790F99B91F48A717006F08C1 /* Build configuration list for PBXNativeTarget "OrionTests" */ = {
 			isa = XCConfigurationList;
@@ -519,6 +524,7 @@
 				790F99BB1F48A717006F08C1 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		790F99BC1F48A717006F08C1 /* Build configuration list for PBXNativeTarget "OrionUITests" */ = {
 			isa = XCConfigurationList;
@@ -527,6 +533,7 @@
 				790F99BE1F48A717006F08C1 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 

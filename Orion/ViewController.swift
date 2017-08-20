@@ -10,9 +10,25 @@ import UIKit
 
 class ViewController: UIViewController {
 
+    let staticImageForEntryView = UIImageView()
+    var viewLayOutConstraints : [NSLayoutConstraint] = []
+    
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view, typically from a nib.
+
+        staticImageForEntryView.translatesAutoresizingMaskIntoConstraints = false
+        staticImageForEntryView.backgroundColor = UIColor.gray
+        self.view.addSubview(staticImageForEntryView)
+        
+//        setting constraints
+        
+        let topConstraint = staticImageForEntryView.topAnchor.constraint(equalTo: self.view.topAnchor)
+        let bottomConstraint = staticImageForEntryView.bottomAnchor.constraint(equalTo: self.view.bottomAnchor)
+        let leftConstraint = staticImageForEntryView.leftAnchor.constraint(equalTo: self.view.leftAnchor)
+        let rightConstraint = staticImageForEntryView.rightAnchor.constraint(equalTo: self.view.rightAnchor)
+        
+        viewLayOutConstraints = [topConstraint,bottomConstraint,leftConstraint,rightConstraint]
+        NSLayoutConstraint.activate(viewLayOutConstraints)
     }
 
     override func didReceiveMemoryWarning() {
