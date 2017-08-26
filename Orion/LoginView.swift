@@ -10,20 +10,15 @@ import UIKit
 
 class LoginView: UIViewController {
 
-    let imgViewForLogo = UIImageView()
+    @IBOutlet weak var txtfieldUsername: UITextField!
+
+    
+    @IBOutlet weak var txtfieldPassword: UITextField!
     
     override func viewDidLoad() {
         super.viewDidLoad()
         
-        imgViewForLogo.backgroundColor = UIColor.gray
-        self.view.addSubview(imgViewForLogo)
-        
-//        setting constraints
-        
-        let topConstraint = imgViewForLogo.topAnchor.constraint(equalTo: self.view.topAnchor, constant: 50)
-        let centerX = imgViewForLogo.centerXAnchor.constraint(equalTo: self.view.centerXAnchor)
-        let constraints = [topConstraint,centerX]
-        NSLayoutConstraint.activate(constraints)
+       
 
         // Do any additional setup after loading the view.
     }

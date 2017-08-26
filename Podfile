@@ -8,8 +8,7 @@ target 'Orion' do
   # Pods for Orion
 
   target 'OrionTests' do
-    inherit! :search_paths
-    # Pods for testing
+   
   end
 
   target 'OrionUITests' do
