@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		03B51F02B84627472BAB6F77 /* Pods_Orion_OrionTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3DA3DC5FD620A31E29510939 /* Pods_Orion_OrionTests.framework */; };
 		474AC4178A407A0153BD514C /* Pods_OrionTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EA1AEBAAD10599634A9D36F6 /* Pods_OrionTests.framework */; };
 		790F998F1F48A717006F08C1 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 790F998E1F48A717006F08C1 /* AppDelegate.swift */; };
 		790F99911F48A717006F08C1 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 790F99901F48A717006F08C1 /* ViewController.swift */; };
@@ -17,7 +18,8 @@
 		790F99A71F48A717006F08C1 /* OrionTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 790F99A61F48A717006F08C1 /* OrionTests.swift */; };
 		790F99B21F48A717006F08C1 /* OrionUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 790F99B11F48A717006F08C1 /* OrionUITests.swift */; };
 		791078231F49F1A8002130AF /* LoginView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 791078221F49F1A8002130AF /* LoginView.swift */; };
-		79423E011F51F0C900EFFD9E /* HomeView.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 79423E001F51F0C900EFFD9E /* HomeView.storyboard */; };
+		79423E011F51F0C900EFFD9E /* ProfileView.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 79423E001F51F0C900EFFD9E /* ProfileView.storyboard */; };
+		79F546311F527D8600ED8B19 /* ProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79F546301F527D8600ED8B19 /* ProfileViewController.swift */; };
 		B8A6923A4184D15DC764B06D /* Pods_OrionUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 45A9C4E066721F48E12DA05F /* Pods_OrionUITests.framework */; };
 		F528F4CA5D7B36D16C772DF0 /* Pods_Orion.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BFAB72F237691605E25AD8AB /* Pods_Orion.framework */; };
 /* End PBXBuildFile section */
@@ -40,7 +42,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		06499BC57FAED0F090E6C603 /* Pods-Orion-OrionTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Orion-OrionTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Orion-OrionTests/Pods-Orion-OrionTests.debug.xcconfig"; sourceTree = "<group>"; };
 		37D1AD065C4E45E875DA1ADE /* Pods-OrionUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-OrionUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-OrionUITests/Pods-OrionUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		3DA3DC5FD620A31E29510939 /* Pods_Orion_OrionTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Orion_OrionTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		3DF6E56E515F243A3DED443E /* Pods-Orion.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Orion.release.xcconfig"; path = "Pods/Target Support Files/Pods-Orion/Pods-Orion.release.xcconfig"; sourceTree = "<group>"; };
 		45A9C4E066721F48E12DA05F /* Pods_OrionUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_OrionUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		4F34A5840A948209CAD3A773 /* Pods-OrionUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-OrionUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-OrionUITests/Pods-OrionUITests.release.xcconfig"; sourceTree = "<group>"; };
@@ -59,7 +63,9 @@
 		790F99B11F48A717006F08C1 /* OrionUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OrionUITests.swift; sourceTree = "<group>"; };
 		790F99B31F48A717006F08C1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		791078221F49F1A8002130AF /* LoginView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginView.swift; sourceTree = "<group>"; };
-		79423E001F51F0C900EFFD9E /* HomeView.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = HomeView.storyboard; sourceTree = "<group>"; };
+		79423E001F51F0C900EFFD9E /* ProfileView.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = ProfileView.storyboard; sourceTree = "<group>"; };
+		79F546301F527D8600ED8B19 /* ProfileViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProfileViewController.swift; sourceTree = "<group>"; };
+		90B54DF10A74F82AB2077804 /* Pods-Orion-OrionTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Orion-OrionTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-Orion-OrionTests/Pods-Orion-OrionTests.release.xcconfig"; sourceTree = "<group>"; };
 		925453F1BD3C73EC0B15FD7C /* Pods-OrionTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-OrionTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-OrionTests/Pods-OrionTests.debug.xcconfig"; sourceTree = "<group>"; };
 		BA6877750DEFDA090157C114 /* Pods-Orion.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Orion.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Orion/Pods-Orion.debug.xcconfig"; sourceTree = "<group>"; };
 		BFAB72F237691605E25AD8AB /* Pods_Orion.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Orion.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -81,6 +87,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				474AC4178A407A0153BD514C /* Pods_OrionTests.framework in Frameworks */,
+				03B51F02B84627472BAB6F77 /* Pods_Orion_OrionTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -123,7 +130,8 @@
 				790F998E1F48A717006F08C1 /* AppDelegate.swift */,
 				790F99901F48A717006F08C1 /* ViewController.swift */,
 				790F99921F48A717006F08C1 /* Main.storyboard */,
-				79423E001F51F0C900EFFD9E /* HomeView.storyboard */,
+				79423E001F51F0C900EFFD9E /* ProfileView.storyboard */,
+				79F546301F527D8600ED8B19 /* ProfileViewController.swift */,
 				791078221F49F1A8002130AF /* LoginView.swift */,
 				790F99981F48A717006F08C1 /* Assets.xcassets */,
 				790F999A1F48A717006F08C1 /* LaunchScreen.storyboard */,
@@ -160,6 +168,8 @@
 				EDF50BCC94744C9E1AB4AB95 /* Pods-OrionTests.release.xcconfig */,
 				37D1AD065C4E45E875DA1ADE /* Pods-OrionUITests.debug.xcconfig */,
 				4F34A5840A948209CAD3A773 /* Pods-OrionUITests.release.xcconfig */,
+				06499BC57FAED0F090E6C603 /* Pods-Orion-OrionTests.debug.xcconfig */,
+				90B54DF10A74F82AB2077804 /* Pods-Orion-OrionTests.release.xcconfig */,
 			);
 			name = Pods;
 			sourceTree = "<group>";
@@ -170,6 +180,7 @@
 				BFAB72F237691605E25AD8AB /* Pods_Orion.framework */,
 				EA1AEBAAD10599634A9D36F6 /* Pods_OrionTests.framework */,
 				45A9C4E066721F48E12DA05F /* Pods_OrionUITests.framework */,
+				3DA3DC5FD620A31E29510939 /* Pods_Orion_OrionTests.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -292,7 +303,7 @@
 			files = (
 				790F999C1F48A717006F08C1 /* LaunchScreen.storyboard in Resources */,
 				790F99991F48A717006F08C1 /* Assets.xcassets in Resources */,
-				79423E011F51F0C900EFFD9E /* HomeView.storyboard in Resources */,
+				79423E011F51F0C900EFFD9E /* ProfileView.storyboard in Resources */,
 				790F99941F48A717006F08C1 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -355,7 +366,7 @@
 			);
 			name = "[CP] Check Pods Manifest.lock";
 			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-OrionTests-checkManifestLockResult.txt",
+				"$(DERIVED_FILE_DIR)/Pods-Orion-OrionTests-checkManifestLockResult.txt",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
@@ -368,13 +379,16 @@
 			files = (
 			);
 			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-Orion-OrionTests/Pods-Orion-OrionTests-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework",
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Alamofire.framework",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-OrionTests/Pods-OrionTests-frameworks.sh\"\n";
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Orion-OrionTests/Pods-Orion-OrionTests-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 		6CFA2F29AA110EDBA9410DC2 /* [CP] Check Pods Manifest.lock */ = {
@@ -455,7 +469,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-OrionTests/Pods-OrionTests-resources.sh\"\n";
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Orion-OrionTests/Pods-Orion-OrionTests-resources.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 /* End PBXShellScriptBuildPhase section */
@@ -465,6 +479,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				79F546311F527D8600ED8B19 /* ProfileViewController.swift in Sources */,
 				790F99971F48A717006F08C1 /* Orion.xcdatamodeld in Sources */,
 				790F99911F48A717006F08C1 /* ViewController.swift in Sources */,
 				791078231F49F1A8002130AF /* LoginView.swift in Sources */,
@@ -646,7 +661,7 @@
 		};
 		790F99BA1F48A717006F08C1 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 925453F1BD3C73EC0B15FD7C /* Pods-OrionTests.debug.xcconfig */;
+			baseConfigurationReference = 06499BC57FAED0F090E6C603 /* Pods-Orion-OrionTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -661,7 +676,7 @@
 		};
 		790F99BB1F48A717006F08C1 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = EDF50BCC94744C9E1AB4AB95 /* Pods-OrionTests.release.xcconfig */;
+			baseConfigurationReference = 90B54DF10A74F82AB2077804 /* Pods-Orion-OrionTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";

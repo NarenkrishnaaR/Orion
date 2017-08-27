@@ -8,7 +8,7 @@ target 'Orion' do
   # Pods for Orion
 
   target 'OrionTests' do
-   
+      pod 'Alamofire', '~> 4.4'
   end
 
   target 'OrionUITests' do

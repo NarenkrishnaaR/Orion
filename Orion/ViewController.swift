@@ -10,25 +10,13 @@ import UIKit
 
 class ViewController: UIViewController {
 
-    let staticImageForEntryView = UIImageView()
-    var viewLayOutConstraints : [NSLayoutConstraint] = []
+  
+    @IBOutlet weak var btnSample: UIButton!
     
     override func viewDidLoad() {
         super.viewDidLoad()
 
-        staticImageForEntryView.translatesAutoresizingMaskIntoConstraints = false
-        staticImageForEntryView.backgroundColor = UIColor.gray
-        self.view.addSubview(staticImageForEntryView)
-        
-//        setting constraints
-        
-        let topConstraint = staticImageForEntryView.topAnchor.constraint(equalTo: self.view.topAnchor)
-        let bottomConstraint = staticImageForEntryView.bottomAnchor.constraint(equalTo: self.view.bottomAnchor)
-        let leftConstraint = staticImageForEntryView.leftAnchor.constraint(equalTo: self.view.leftAnchor)
-        let rightConstraint = staticImageForEntryView.rightAnchor.constraint(equalTo: self.view.rightAnchor)
-        
-        viewLayOutConstraints = [topConstraint,bottomConstraint,leftConstraint,rightConstraint]
-        NSLayoutConstraint.activate(viewLayOutConstraints)
+       
     }
 
     override func didReceiveMemoryWarning() {
@@ -36,6 +24,12 @@ class ViewController: UIViewController {
         // Dispose of any resources that can be recreated.
     }
 
+    @IBAction func btnsampleFunc(_ sender: UIButton) {
+        
+        let storyboard = UIStoryboard(name: "ProfileView", bundle: nil)
+        let vc = storyboard.instantiateViewController(withIdentifier: "ProfileViewController") as! ProfileViewController
+        present(vc, animated: true, completion: nil)
+    }
 
 }
 
