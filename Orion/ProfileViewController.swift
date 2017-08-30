@@ -22,6 +22,7 @@ class ProfileViewController: UITableViewController {
         imgViewForProfilePic.clipsToBounds = true
         imgViewForProfilePic.backgroundColor = UIColor.black
 
+        
     }
 
     override func didReceiveMemoryWarning() {
